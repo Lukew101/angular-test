@@ -10,5 +10,5 @@ import { StnButton } from '@statnett/angular-components';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'my-app';
+  title = 'my-app-2';
 }
