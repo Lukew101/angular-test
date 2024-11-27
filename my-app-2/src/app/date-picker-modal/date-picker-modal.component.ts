@@ -1,10 +1,10 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { StnButton, StnDatePicker, StnModal } from '@statnett/angular-components';
+import { StnButton, StnDatePicker, StnModal, StnDateRangePicker, StnDateTimePicker, StnTimePicker, StnTimeRangePicker } from '@statnett/angular-components';
 
 @Component({
   selector: 'app-date-picker-modal',
   standalone: true,
-  imports: [StnDatePicker, StnButton, StnModal, StnButton],
+  imports: [StnDatePicker, StnButton, StnModal, StnButton, StnDatePicker, StnDateRangePicker, StnDateTimePicker, StnTimePicker, StnTimeRangePicker],
   templateUrl: './date-picker-modal.component.html',
   styleUrl: './date-picker-modal.component.scss'
 })

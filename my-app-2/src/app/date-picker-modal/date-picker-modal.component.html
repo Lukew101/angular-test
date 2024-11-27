@@ -1,7 +1,12 @@
 <stn-button (click)="openModal()" (close)="closeModal()">Open modal</stn-button>
 <stn-modal [open]="open">
   <span slot="header">Select a Date</span>
-  <span slot="text">    
+  <span slot="text">
+    <stn-date-picker></stn-date-picker>
+  <stn-date-time-picker></stn-date-time-picker>
+  <stn-time-picker></stn-time-picker>
+  <stn-date-range-picker></stn-date-range-picker>
+  <stn-time-range-picker></stn-time-range-picker>
   </span>
   <stn-button slot="buttons" (click)="closeModal()">Okay</stn-button>
 </stn-modal>

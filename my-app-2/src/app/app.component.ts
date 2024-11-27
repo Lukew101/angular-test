@@ -22,7 +22,6 @@ export class AppComponent {
 
   openDatePickerDialog(): void {
     const dialogRef = this.dialog.open(PickerDialogComponent, {
-      width: '250px',
       autoFocus: false,
       restoreFocus: false,
     });
