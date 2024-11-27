@@ -1,0 +1,8 @@
+<h2 mat-dialog-title>Select a Date</h2>
+<mat-dialog-content>
+  <stn-date-picker></stn-date-picker>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button mat-button [mat-dialog-close]="selectedDate" cdkFocusInitial>Ok</button>
+</mat-dialog-actions>
