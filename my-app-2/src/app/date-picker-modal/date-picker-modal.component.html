@@ -1,0 +1,7 @@
+<stn-button (click)="openModal()" (close)="closeModal()">Open modal</stn-button>
+<stn-modal [open]="open">
+  <span slot="header">Select a Date</span>
+  <span slot="text">    
+  </span>
+  <stn-button slot="buttons" (click)="closeModal()">Okay</stn-button>
+</stn-modal>

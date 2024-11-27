@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
-import { StnDatePicker } from '@statnett/angular-components';
+import { StnDatePicker, StnModal } from '@statnett/angular-components';
 
 @Component({
   selector: 'app-picker-dialog',
